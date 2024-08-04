@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InitialTesting">
+  <test thread-count="5" name="smoke test">
+    <classes>
+      <class name="com.softwaretestingboard.magento.base.BaseTest"/>
+      <class name="com.softwaretestingboard.magento.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- smoke test -->
+</suite> <!-- InitialTesting -->
